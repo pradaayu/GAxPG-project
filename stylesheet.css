@@ -53,7 +53,7 @@ header {
   
   .header-txt {
     padding: 60px;
-    font-family: Helvetica;
+    font-family: "Helvetica rounded bold";
   }
   
   .header-txt h1 {
