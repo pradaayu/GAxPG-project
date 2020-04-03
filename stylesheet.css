@@ -1,0 +1,252 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #A9D6D5;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    width: 100%;
+  }
+  
+  .header-title {
+    height: 90px;
+    width: 100%;
+    background-color: #4F7877;
+    position: fixed;
+    top:0;
+    opacity: 90%;
+    z-index: 10;
+  }
+  
+  .header-logo {
+    float: left;
+    padding: 20px 40px;
+  }
+  
+  .header-list {
+    float: right;
+    padding-right: 30px;
+  }
+  
+  .header-list li {
+    font-size: 18px;
+    float: left;
+    padding: 20px;
+    color: white;
+  }
+  
+  .header-img {
+    padding: 150px 0 75px 0;
+    background-image: url(img/header.png);
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .header-txt {
+    padding: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .header-txt h1 {
+    font-size: 40px;
+    text-shadow: 3px 3px 4px #000000;
+  }
+  
+  .header-txt p {
+    font-size: 20px;
+  }
+  
+  span {
+    color: rgb(255, 211, 17);
+  }
+
+  * {
+    box-sizing: border-box;
+}
+
+  a {
+    text-decoration: none;
+  }
+  
+  .intro-wrapper {
+    height: 170px;
+    background-color: #ebfffe;
+    box-shadow: 0 10px #4f7877;
+    padding: 0px 40px ;
+    border-bottom: 10px solid #4F7877;
+  }
+    
+  .intro-heading {
+    color:black;
+    float: left;  
+    width: 50%;
+    position: relative;
+    padding: 10px 100px ;
+    text-align: center;
+  }
+
+  .intro-heading h2 {
+    font-weight: bold;
+    padding: 10px 10px 0px 10px ;
+    font-size: 17px;
+    position: relative;
+  }  
+  .progate-icon {
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    position: relative;
+  }
+  .glints-icon {
+    float: left;
+    padding: 10px;
+    position: relative;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #7BA6A5;
+}
+.lesson-wrapper {
+    padding-bottom: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #7BA6A5;
+    text-align: center;
+    line-height: 15px;
+    border-bottom: 2px solid #4F7877;
+}
+  
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: white;
+    text-align: left;
+}
+.heading h2 {
+    font-size: 36px;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 4px #4F7877;
+}
+.heading p {
+    font-size: 20px;
+}
+.lessons {
+    width: 25%;
+    border-radius: 20px;
+    border-bottom: 7px solid black;
+    border-left: 7px solid black;
+    border-top: 7px solid black;
+    border-right: 7px solid black;
+    box-shadow: 4px 4px 8px #4F7877;
+    background-color: #A9D6D5;
+    display: inline-block;
+    margin: 30px;
+}
+} 
+  
+  .lesson {
+    float: left;
+    display: block;
+   }
+
+  .lesson-icon {
+    padding-top: 40px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: auto;
+  }
+    
+  .txt-contents {
+    width: 70%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: normal;
+  }
+
+.contact-form {
+    padding: 10px 0px 10px 100px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 36px;
+    color: white;
+    text-shadow: 2px 2px 4px #7BA6A5;
+    margin: 36px 0px ;
+}
+
+input, textarea {
+    width: 400px;
+    margin-bottom: 5px;
+    padding: 10px 5px;
+    font-size: 16px;
+    background: #4F7877;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+textarea {
+    padding: 50px 10px;
+}
+
+.contact-submit {
+    width: 400px;
+    padding: 20px;
+    margin: 20px 0px 20px 0px;
+    box-shadow: 0px 5px rgb(52, 80, 79);
+    cursor: pointer;
+}
+
+.contact-submit:active {
+box-shadow: none;
+background-color: rgb(52, 80, 79);
+position: relative;
+top: 5px;
+}
+
+footer {
+    background-color: #4F7877;
+    height: 140px;
+    padding-bottom: 35px;
+}
+
+.footer-list {
+    float: right;
+    color: white;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.footer-list li {
+    margin-top: 20px;
+}
+
+.footer-logo {
+    float: left;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.footer-logo img {
+    width: 150px;
+    display: inline;
+    padding-top: 30px;
+}
