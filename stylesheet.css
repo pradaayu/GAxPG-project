@@ -3,8 +3,12 @@ html, body {
     padding: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #A9D6D5;
 }
 
@@ -25,9 +29,10 @@ header {
     opacity: 90%;
     z-index: 10;
   }
-  
-  .header-logo {
+
+  .header-logo img {
     float: left;
+    width: 250px;
     padding: 20px 40px;
   }
   
@@ -36,16 +41,67 @@ header {
     padding-right: 30px;
   }
   
+  .header-list a {
+    line-height: 80px;
+    padding: 0 25px;
+    font-size: 20px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+
+  .header-list a:hover {
+    background-color:#385756;
+    opacity: 90%;
+    height: 90px;
+  }
+
   .header-list li {
     font-size: 18px;
     float: left;
     padding: 20px;
     color: white;
   }
+
+  .menu-icon {
+    width: 80px;
+    float: right;
+    display: none;
+    position: relative;
+    cursor: pointer;
+  }
+ 
+  .menu-icon img {
+    width: inherit;
+  }
+
+  .menu-icon:hover {
+    background-color:#385756;
+    opacity: 90%;
+    height: 90px;
+    }
+
+  .dropdown {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+    padding: 100px 20px 0px 800px;
+  }
+
+  .dropdown a {
+    font-size: 18px;
+    color: white;
+    line-height: 25px;
+    display: none;
+  }
+
+  .dropdown a:hover {background-color: teal;}
   
   .header-img {
     padding: 150px 0 75px 0;
-    background-image: url("https://raw.githubusercontent.com/pradaayu/GAxPG-project/master/header.png");
+    background-image: url(img/header.png);
     background-size: cover;
     text-align: center;
     color: #fff;
@@ -53,7 +109,7 @@ header {
   
   .header-txt {
     padding: 60px;
-    font-family: "Helvetica rounded bold";
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .header-txt h1 {
