@@ -151,8 +151,12 @@
 
       .menu-icon {
         display: block;
-        margin-top: 3px;
-        width: 40px;
+        margin-top: 0px;
+        width: 60px;
+      }
+
+      .menu-icon:hover {
+        height: 60px;
       }
       
       .header-img {
