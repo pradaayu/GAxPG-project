@@ -197,8 +197,9 @@
       }
 
       .p2 {
-        margin-left: 130px;
-
+        margin-left: 100px;
+        margin-right: 0px;
+        margin-top: 0px;
       }
 
       .glints-icon {
@@ -208,7 +209,9 @@
 
       .progate-icon {
         width: 150px;
-      padding: 30px 30px 20px 0px;
+        padding: 30px 10px 20px 0px;
+        margin-right: 10px;
+        margin-left: -20px;
       }
 
       .progate {
@@ -290,9 +293,9 @@ footer {
   }
   
   .footer-list li {
-    margin-top: 15px;
     padding: 0px;
     text-align: right;
+    line-height: 25px;
   }
   
   .footer-logo {
